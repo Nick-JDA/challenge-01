@@ -10,7 +10,7 @@
 <body>
     <header> <!--Added header element-->
         <!--Removed div with class element "header"-->
-            <h1>Hori<span class="seo">seo</span>n</h1>
+            <h1>Hori<span>seo</span>n</h1>
             <nav> <!--Changed div to nav-->
                 <ul>
                     <li>
@@ -26,31 +26,34 @@
             </nav>
     </header>
     
-
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="notebook on a desk with SEO written and it's elements" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt="laptop with a bar graph displaying an increasing reputation level" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" alt="top down view of people at a desk with various app elements and chat bubbles coming from four of them saying, share, like, media, tweet" class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
-   </div>
+    <figure> <!--Added figure element-->
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="coworkers sitting at a desk together looking at papers in the middle of the desk"> <!--placed div=class hero into figure section and changed the element to an image then added alt text-->
+    </figure>
+    
+    <main> <!--Placed the bulk of content into main element-->
+        <!--Removed div class=content-->
+           <article id="search-engine-optimization"> <!--Made each chunk of text an article element-->
+                <img src="./assets/images/search-engine-optimization.jpg" alt="notebook on a desk with SEO written and it's elements" class="float-left" /> <!--added alt description-->
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </article>
+            <article id="online-reputation-management">
+                <img src="./assets/images/online-reputation-management.jpg" alt="laptop with a bar graph displaying an increasing reputation level" class="float-right" /> <!--added alt description-->
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                </p>
+            </article>
+            <article id="social-media-marketing">
+                <img src="./assets/images/social-media-marketing.jpg" alt="top down view of people at a desk with various app elements and chat bubbles coming from four of them saying, share, like, media, tweet" class="float-left" /> <!--added alt description-->
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                </p>
+            </article>
+    </main>
 
     <div class="benefits">
         <div class="benefit-lead">

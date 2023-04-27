@@ -7,8 +7,8 @@
 body {
     background-color: #d9dcd6;
 }
-
-header {
+/* changed class selector to element selector header \/ */
+header { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,7 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+span {
     color: #d9dcd6;
 }
 
@@ -40,7 +40,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* changed class selector to element selector header /\ */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,11 +50,10 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
+figure img {
+    height: 1100px; /* increased pixel value of height for the image */
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -67,12 +66,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -133,8 +126,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/* Consolidated class elements and ther values for main section */
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,47 +136,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -197,4 +154,10 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+main {  /* added main class codeblock with */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
