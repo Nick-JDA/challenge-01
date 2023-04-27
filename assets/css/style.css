@@ -115,16 +115,19 @@ article h2 {
     font-size: 36px;
 }
 /* Consolidated class elements and ther values for main section /\ */
-.footer {
+
+/* changed class selector to element selector footer \/ */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+/* changed class selector to element selector footer /\ */
 
 main {  /* added main class codeblock */
     width: 75%;
