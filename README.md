@@ -16,7 +16,7 @@ Demo site for coding bootcamp students to view with devtools to understand seman
 
 ![Webpage](./assets/images/Webpage_screenshot.png)
 
-Link to deployed page:
+Link to deployed page: https://nick-jda.github.io/challenge-01/
 
 ## Credits
 
